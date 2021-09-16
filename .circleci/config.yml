@@ -43,7 +43,7 @@ workflows:
     jobs:
       - say-hello
   production-simulation:
-  # note that the last step is supposed to fail
+  # note that the last step (i.e., analyze step) is supposed to fail
     jobs:
       - build
       - test:
